@@ -1029,9 +1029,9 @@ public class ConferenceCompareAuthor {
 		
         System.out.println("成功加载MySQL驱动！");
             
-        String url="jdbc:mysql://202.120.36.29:3306/mag-new-160205";    //JDBC的URL URL编写方式：jdbc:mysql://主机名称：连接端口/数据库的名称?参数=值   
+        String url="jdbc:mysql://rm-uf6g9z279sr18j926do.mysql.rds.aliyuncs.com:3306/mag-new-160205";    //JDBC的URL URL编写方式：jdbc:mysql://主机名称：连接端口/数据库的名称?参数=值   
 		try {
-			conn = DriverManager.getConnection(url, "map","map");     // 一个Connection代表一个数据库连接
+			conn = DriverManager.getConnection(url, "groupleader","Onlyleaders0");     // 一个Connection代表一个数据库连接
 		} catch (SQLException e1) {
 			e1.printStackTrace();
 		}
